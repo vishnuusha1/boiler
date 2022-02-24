@@ -1,0 +1,13 @@
+GET {{host}}/api/v1/projects
+
+###
+
+POST {{host}}/api/v1/projects HTTP/1.1
+content-type: application/json
+
+{
+    "title": "sample",
+    "description": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+###
